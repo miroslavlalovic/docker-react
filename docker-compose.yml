@@ -1,7 +1,8 @@
 version: '3'
 services:
   web:
-    stdin_open: true
+    # stdin_open: true
+    stdin_o
     environment:
       - CHOKIDAR_USEPOLLING=true
     build:
